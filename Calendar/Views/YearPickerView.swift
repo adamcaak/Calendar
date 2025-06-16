@@ -4,7 +4,7 @@
 //
 //  Created by Łukasz Adamczak on 16/06/2025.
 //
-
+import Foundation
 import SwiftUI
 
 struct YearPickerView: View {
@@ -36,6 +36,7 @@ struct YearPickerView: View {
             .cornerRadius(15)
             .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 5)
         }
+        .padding()
     }
 }
 
